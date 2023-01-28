@@ -62,7 +62,7 @@ p {
 /* Buttons */
 
 .main-button a {
-    background-color: #f5a425;
+    background-color: #3CF;
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;
@@ -158,7 +158,7 @@ a.menu-link { display: none; }
 }
 
 .main-header {
-    background-color: rgba(22,34,57,0.95);
+    background-color: rgba(5,20,35,0.5);
     height: 80px;
     position: fixed;
     z-index: 12;
@@ -180,7 +180,7 @@ a.menu-link { display: none; }
 }
 .main-header .logo a em {
     font-style: normal;
-    color: #f5a425;
+    color: #3CF;
 }
 
 .main-menu {
@@ -262,13 +262,13 @@ a.menu-link { display: none; }
 }
 
 .main-menu li .sub-menu li a:hover {
-    color: #f5a425;
+    color: #3CF;
     border: none;
 }
 
 .main-nav li:hover a,
 .main-nav li.active a {
-    border: 2px solid #f5a425;
+    border: 2px solid #3CF;
 }
 
 @media (max-width: 950px) {
@@ -304,7 +304,7 @@ a.menu-link { display: none; }
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(22,34,57,0.85);
+    background-color: rgba(10,20,30,0.7);
     top: 0;
     left: 0;
     bottom: 7px;
@@ -341,7 +341,7 @@ a.menu-link { display: none; }
 
 .main-banner .caption h2 em {
   font-style: normal;
-  color: #f5a425;
+  color: #3CF;
   font-weight: 900;
 }
 
@@ -391,17 +391,17 @@ section.features .col-4 {
 }
 
 .features-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #0c1228;
-  color: #fff;
-  padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #141c28;
+    color: #fff;
+    padding: 40px;
 }
 
 .features-content:hover {
-    background-color: #f5a425;
+    background-color: #3CF;
     box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
 }
 
@@ -558,15 +558,15 @@ section.why-us {
 #tabs ul .ui-tabs-active {
 }
 #tabs ul .ui-tabs-active a {
-  color: #f5a425;
+  color: #3CF;
 }
 #tabs ul .ui-tabs-active a:after {
-  background-color: #f5a425;
+  background-color: #3CF;
   width: 15px;
   height: 15px;
 }
 #tabs ul .ui-tabs-active a:before {
-  border-color: #f5a425;
+  border-color: #3CF;
 }
 #tabs h4 {
     margin-top: 60px;
@@ -824,7 +824,7 @@ section.courses .item .down-content p {
 
 section.courses .item .down-content img {
     width: 40px;
-    border: 2px solid #f5a425;
+    border: 2px solid #3CF;
     border-radius: 50%;
     text-align: left;
     display: inline-block;
@@ -837,7 +837,7 @@ section.courses .item .down-content .text-button-pay {
 }
 
 section.courses .item .down-content .text-button-pay a {
-    color: #f5a425;
+    color: #3CF;
     font-size: 13px;
 }
 
@@ -868,7 +868,7 @@ section.courses .owl-carousel button.owl-dot {
     outline: none;
 }
 section.courses .owl-carousel button.active {
-    background-color: #f5a425;
+    background-color: #3CF;
 }
 
 
@@ -906,7 +906,7 @@ section.video .left-content h4 {
 }
 section.video .left-content h4 em {
     font-style: normal;
-    color: #f5a425;
+    color: #3CF;
 }
 
 section.video .left-content .main-button {
