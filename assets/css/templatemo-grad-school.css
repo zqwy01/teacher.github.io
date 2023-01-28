@@ -75,7 +75,7 @@ p {
 
 a.menu-link { display: none; }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1250px) {
   a.menu-link {
     float: right;
     display: block;
@@ -123,10 +123,10 @@ a.menu-link { display: none; }
   }
   nav[role="navigation"] li:hover a,
   nav[role="navigation"] li.active a {
-      color: #f5a425;
+      color: #3CF;
   }
   
-  @media screen and (min-width: 951px) {
+  @media screen and (min-width: 1250px) {
     .js nav[role="navigation"] {
       max-height: none;
     }
@@ -143,7 +143,7 @@ a.menu-link { display: none; }
 
 /* Header */
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1250px) {
   .main-header .logo {
       padding-left: 30px!important;
   }
@@ -271,7 +271,7 @@ a.menu-link { display: none; }
     border: 2px solid #3CF;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1250px) {
   .main-nav li:hover a,
   .main-nav li.active a {
     border: 2px solid transparent;
@@ -279,6 +279,14 @@ a.menu-link { display: none; }
   }
 }
 
+@media (max-width: 500px) {
+    .main-header {
+        height: 20%;
+    }
+    body {
+        font-family:Calibri
+    }
+}
 
 /* Slider */
 
@@ -635,7 +643,7 @@ section.coming-soon .continer h4 {
 }
 section.coming-soon .continer h4 em {
     font-style: normal;
-    color: #f5a425;
+    color: #3CF;
 }
 
 @media screen and (max-width: 767px) {
@@ -698,7 +706,7 @@ section.coming-soon .continer .counter .seconds .value {
 section.coming-soon .continer .counter span {
     font-size: 18px;
     text-transform: uppercase;
-    color: #f5a425;
+    color: #3CF;
     font-weight: 500;
     letter-spacing: 1px;
     margin-top: 0px;
@@ -770,7 +778,7 @@ section.coming-soon form input::placeholder { color: #fff; }
 
 section.coming-soon form button {
     margin-top: 10px;
-    background-color: #f5a425;
+    background-color: #3CF;
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;
@@ -951,7 +959,7 @@ section.video .left-content .main-button {
   margin-top: -32.5px;
   margin-left: -32.5px;
   border-radius: 50%;
-  background-color: #f5a425;
+  background-color: #3CF;
   z-index: 10;
 }
 .video-item figure a:after {
@@ -967,7 +975,7 @@ section.video .left-content .main-button {
   z-index: 10;
 }
 .video-item figure a:hover:before {
-  background-color: #f5a425;
+  background-color: #3CF;
 }
 
 .video-item .video-caption {
@@ -1506,7 +1514,7 @@ section.contact form textarea::placeholder { color: #fff; }
 section.contact form textarea::placeholder { color: #fff; }
 
 section.contact form button {
-    background-color: #f5a425;
+    background-color: #3CF;
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;
@@ -1538,7 +1546,7 @@ footer p {
 
 footer p a,
 footer p a:hover {
-    color: #f5a425;
+    color: #3CF;
 }
 
 @media screen and (max-width: 992px) {
@@ -1547,7 +1555,7 @@ footer p a:hover {
   .features-post { border-left: 0 }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: px) {
   .main-menu { padding-right: 0!important; }
   .main-header .logo {
     line-height: 73px;
